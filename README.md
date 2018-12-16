@@ -16,7 +16,7 @@ This is the official repo for our NIPS paper [Weakly Supervised Dense Event Capt
 
 ## Dependency
 + Python 2.7
-+ **CUDA 0.9**(note: you will encounter a bug saying `segmentation fault(core dump)` if you run our code with CUDA 8.0)
++ **CUDA 9.0**(note: you will encounter a bug saying `segmentation fault(core dump)` if you run our code with CUDA 8.0)
 + [Pytorch 3.1](note: 3.1 is not compatible with newer version)
 + numpy, hdf5 and other necessary packages(no special requirement)
 
@@ -27,7 +27,7 @@ Before the training and testing, we should make sure the data, third party data 
 
 **1. Clone our repo and submodules**
 ```
-git clone --recurssive https://github.com/XgDuan/WSDEC
+git clone --recursive https://github.com/XgDuan/WSDEC
 ```
 
 **2. Download all the data**
